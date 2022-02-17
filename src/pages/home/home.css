@@ -1,0 +1,20 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(
+    180deg,
+    #d4ecdd 0%,
+    #d4ecdd 100%,
+    rgba(212, 236, 221, 0.5) 100%
+  );
+  height: calc(100vh - 90px);
+  padding: 4em 0px;
+}
+.primarybtn {
+  padding: 20px;
+  font-size: 2em;
+  background: linear-gradient(180deg, #345b63 0%, #152d35 100%);
+  border-radius: 20px;
+  color: #d4ecdd;
+}

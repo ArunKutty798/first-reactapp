@@ -1,0 +1,28 @@
+.header {
+  background: linear-gradient(
+    180deg,
+    #d4ecdd 0%,
+    #d4ecdd 100%,
+    rgba(212, 236, 221, 0.5) 100%
+  );
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5em 2.5em;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  padding: 0em 2.5em;
+  text-transform: uppercase;
+  font-size: 1em;
+  font-weight: 400;
+  color: #345b63;
+}
+.btn {
+  padding: 10px;
+  background: linear-gradient(180deg, #345b63 0%, #152d35 100%);
+  border-radius: 5px;
+  color: #d4ecdd;
+  text-transform: uppercase;
+}
